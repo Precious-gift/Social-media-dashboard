@@ -46,6 +46,24 @@ body {
     border-bottom: 2px solid var(--Dark-Grayish-Blue);
     padding: 0px;
   }
+  #togle {
+    width: 60px;
+    height: 30px;
+    background-color: var(--Toggle);
+    border-radius: 15px;  
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: 10px;
+    
+  }
+/* Dark mode */
+  .dtogle {
+    
+    justify-content: flex-start !important; 
+    background-image: linear-gradient(90deg, hsl(210, 78%, 56%), hsl(146, 68%, 55%));
+    
+  }
   .media {
     padding: 0px;
   }
@@ -207,6 +225,8 @@ body {
   .col-m-10 {width: 83.33%;}
   .col-m-11 {width: 91.66%;}
   .col-m-12 {width: 100%;}
+
+
 }
 @media only screen and (min-width: 768px) {
   /* For desktop: */
@@ -272,7 +292,7 @@ body {
   }
 /* Dark mode */
   .dindicator {
-    background-color: black !important;
+    background-color: black;
   }
 
   .mode {
