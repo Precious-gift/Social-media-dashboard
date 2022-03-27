@@ -399,11 +399,9 @@ body {
    font-size: 46px;
    margin: 0px;
  }
- .container1 {
+#container1 {
    background-color: var(--Very-Pale-Blue);
    height: 350px;
  }
- .dcontainer {
-  background-color: hsl(232, 19%, 15%) !important;
- }
+
 }
